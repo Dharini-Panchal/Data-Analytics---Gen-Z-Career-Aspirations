@@ -15,18 +15,17 @@ The analytical workflow follows a 9-step structure using **SQL**, **Excel**, and
 
 ---
 
-## 🗺️ Project Roadmap (9-Step Analytics Pipeline)
+## 🗺️ Project Roadmap & Repository Artifacts
 
-1. **Step 1: Problem Statement** — 5W1H Framework breakdown of Gen Z workplace mismatches.
-2. **Step 2: Data Collection** — Qualitative & quantitative survey data gathering across demographics, salary expectations, and job preferences.
-3. **Step 3: Data Cleaning & Standardization** — Data sanitization, handling missing values, and mapping open-ended responses into standard attributes.
-4. **Step 4: Exploratory Data Analysis (EDA)** — Demographic profiling, influencer analysis, and retention correlation mining.
-5. **Step 5: SQL Database Querying** — Relational queries, CTEs, conditional aggregations, and bucket categorizations.
-6. **Step 6: Executive Dashboard in Excel** — Dynamic pivot tables, dynamic KPI card models, and leadership summaries.
-7. **Step 7: Functional Dashboard in Power BI** — DAX measures, cross-filtering, and interactive views (*Manager Aspirations* vs. *Mission Aspirations*).
-8. **Step 8: Insights & Recommendations** — Quantitative findings paired with employer action plans and the Win-Win Strategic Matrix.
-9. **Step 9: Case Study (Royal Bank of Canada - RBC)** — Real-world evaluation of employee sentiment, wellbeing ratings, and frontline vs. executive alignment.
-
+- **[Step 1: Problem Statement](./docs/)** — 5W1H Framework breakdown of Gen Z workplace mismatches.
+- **[Step 2: Data Collection](./data/raw_survey_data.csv)** — Qualitative & quantitative survey data gathering across demographics, salary expectations, and job preferences.
+- **[Step 3: Data Cleaning & Standardization](./data/cleaned_genz_data.csv)** — Data sanitization, handling missing values, and mapping open-ended responses into standard attributes.
+- **[Step 4: Exploratory Data Analysis (EDA)](./data/cleaned_genz_data.csv)** — Demographic profiling, influencer analysis, and retention correlation mining.
+- **[Step 5: SQL Database Querying](./sql/genz_career_analysis.sql)** — Relational queries, CTEs, conditional aggregations, and bucket categorizations.
+- **[Step 6: Executive Dashboard in Excel](./dashboards/GenZ_Executive_Summary.xlsx)** — Dynamic pivot tables, dynamic KPI card models, and leadership summaries.
+- **[Step 7: Functional Dashboard in Power BI](./dashboards/GenZ_Career_PowerBI.pbix)** — DAX measures, cross-filtering, and interactive views (*Manager Aspirations* vs. *Mission Aspirations*).
+- **[Step 8: Insights & Recommendations](./docs/GenZ_Career_Aspirations.pdf)** — Quantitative findings paired with employer action plans and the Win-Win Strategic Matrix.
+- **[Step 9: Case Study (Royal Bank of Canada - RBC)](./docs/GenZ_Career_Aspirations.pdf)** — Real-world evaluation of employee sentiment, wellbeing ratings, and frontline vs. executive alignment.
 ---
 
 ## 💡 Key Analytical Findings
