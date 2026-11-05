@@ -41,4 +41,4 @@ The analytical workflow follows a 9-step structure using **SQL**, **Excel**, and
 
 ## 👤 Author
 **Dharini Panchal**  
-*Data Analytics Intern — KultureHire*[cite: 1, 30]
+*Data Analytics Intern — KultureHire*
